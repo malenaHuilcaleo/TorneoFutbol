@@ -1,0 +1,4 @@
+new Jugador("Cristiano", "Ronaldo",0),
+            new Jugador("Luka"," Modric",0),
+            new Jugador("Kylian"," Mbappe",0),
+            new Jugador("Neymar" ,"Jr.",0),
