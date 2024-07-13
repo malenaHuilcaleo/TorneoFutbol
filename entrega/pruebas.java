@@ -15,31 +15,24 @@ public class pruebas {
     new Jugador("González", "Juan", 12345678),
     new Jugador("López", "María", 23456789),
     new Jugador("Martínez", "Carlos", 34567890),
-    
-   
-    
-   
- 
-  
 
-  
-    //150
-
-
+    //
         };
+        
        long startTime = System.nanoTime();
-// Llamar al método de ordenamiento a probar (Bubble Sort, Merge Sort, etc.)/*
-        ordenarJugadoresSegunNombre(todosLosJugadores); // Ejemplo: Llamar al método de ordenamiento a probar
+// Llamar al método de ordenamiento a probar (en este caso burbuja mejorado)
+        ordenarJugadoresSegunNombre(todosLosJugadores); 
         
         long endTime = System.nanoTime();
 
         long tiempoEjecucion = endTime - startTime;
 
-        System.out.println("tiempo de ejecucion burbuja "+tiempoEjecucion+"ms");
+        System.out.println("tiempo de ejecucion burbuja "+tiempoEjecucion+"ns");
   /*  
         //mergesort
+        
       long startTime1 = System.nanoTime();
-        mergeSortPorNombre(todosLosJugadores, 0, todosLosJugadores.length-1); // Ejemplo: Llamar al método de ordenamiento a probar
+        mergeSortPorNombre(todosLosJugadores, 0, todosLosJugadores.length-1); 
         
          long endTime1 = System.nanoTime();
 
